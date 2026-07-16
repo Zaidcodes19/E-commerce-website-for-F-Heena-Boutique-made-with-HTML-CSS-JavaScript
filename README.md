@@ -60,35 +60,35 @@ All persistence is handled client-side via the browser's `localStorage` API — 
 ## Screenshots
 
 ### 🏠 Home Page
-![Home Page - Hero](screenshots/home1.PNG)
-![Home Page - Best Products](screenshots/home2.PNG)
+![Home Page - Hero](FHEENA/screenshots/home1.PNG)
+![Home Page - Best Products](FHEENA/screenshots/home2.PNG)
 
 ### ✨ Why Choose Us
-![Why Us Section](screenshots/whyUs.PNG)
+![Why Us Section](FHEENA/screenshots/whyUs.PNG)
 
 ### 📞 Contact Us
-![Contact Us Form](screenshots/contactUs.PNG)
+![Contact Us Form](FHEENA/screenshots/contactUs.PNG)
 
 ### 🛍️ Products Page
-![Products Page](screenshots/productPage.PNG)
+![Products Page](FHEENA/screenshots/productPage.PNG)
 
 ### 🛒 Cart Page
-![Cart Page](screenshots/cartPage.PNG)
+![Cart Page](FHEENA/screenshots/cartPage.PNG)
 
 ### 👤 User Login
-![User Login Page](screenshots/userLoginPage.PNG)
+![User Login Page](FHEENA/screenshots/userLoginPage.PNG)
 
 ### 📝 User Registration
-![User Registration Page](screenshots/userRegsPage.PNG)
+![User Registration Page](FHEENA/screenshots/userRegsPage.PNG)
 
 ### 🔐 Admin Login
 ![Admin Login Page](FHEENA/screenshots/adminLogin.PNG)
 
 ### 🖥️ Admin Home
-![Admin Home Page](screenshots/adminHome.PNG)
+![Admin Home Page](FHEENA/screenshots/adminHome.PNG)
 
 ### 📦 Admin Order Management
-![Admin Order Management](screenshots/adminOrderManagement.PNG)
+![Admin Order Management](FHEENA/screenshots/adminOrderManagement.PNG)
 
 ---
 
@@ -136,9 +136,6 @@ f-heena-boutique/
     └── photo.jpg
 ```
 
-> **Note:** The `css/`, `JS/`, and `images/` folders and their contents (fonts aside, which load from Google Fonts CDN) are **referenced** by the HTML files (`<link href="css/style.css">`, `<script src="JS/main.js">`, `<img src="images/...">`) but were not part of the uploaded file set except for `style.css` and `main.js` themselves. Make sure to place `style.css` inside a `css/` folder and `main.js` inside a `JS/` folder (matching the exact casing used in the HTML) relative to the HTML files, and add the referenced image assets into an `images/` folder for the site to render correctly.
-
----
 
 ## Prerequisites
 
@@ -339,15 +336,10 @@ Please open an issue first to discuss any significant changes.
 
 ---
 
-## License
-
-No license file was included in the uploaded project. Consider adding a `LICENSE` file (e.g., MIT License) to clarify how others may use, modify, or distribute this code.
-
----
-
 ## Author
 
 **F Heena Boutique**
-📧 Contact: [hello@fheenaboutique.com](mailto:hello@fheenaboutique.com)
+Author Name : Zaid Inamdar
+📧 Contact: [hello@fheenaboutique.com](mailto:inamdarzaid587@gmail.com)
 
-> _Update this section with the actual developer's name, GitHub profile, and portfolio/contact links._
+
