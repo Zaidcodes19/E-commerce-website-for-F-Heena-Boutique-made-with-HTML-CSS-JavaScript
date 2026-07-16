@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F HEENA BOUTIQUE | Admin</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <img src="images/logo.png" class="logo" alt="logo" />
+            <input type="checkbox" id="sidebaractive">
+            <label for="sidebaractive" class="open-sidebar-btn ">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                    fill="#1C1C1C">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </label>
+            <label for="sidebaractive" id="overlay"></label>
+            <ul class="nav-links">
+                <label for="sidebaractive" class="close-sidebar-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="#1C1C1C">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </label>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#orders">Orders</a></li>
+                <li><a href="#productManagement">Product management</a></li>
+                <li><a href="#feedbacks">Feedbacks</a></li>
+                <li><a href="admin-login.html" id="login-link">Login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="adminHome">
+        <div class="greetings">
+            <h1>
+                Welcome Back Saipan!
+            </h1>
+            <button id="orderRed" onclick="window.location.href='#orders'">Orders</button>
+        </div>
+    </section>
+    <section id="orders">
+        <div class="orders">
+            <h2>Orders</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Product Id</th>
+                        <th>Product</th>
+                        <th>Name</th>
+                        <th>Mode</th>
+                        <th>Status</th>
+                        <th colspan="2">Action</th>
+                    </tr>
+
+                </thead>
+                <tbody class="orderTable">
+
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="productManagement" class="productManagement">
+
+        <h2>Product Management</h2>
+
+        <div class="product-container">
+
+            <!-- Add Product Card -->
+            <div class="add-product">
+
+                <form class="user-login" id="productForm">
+                    <h3>Add New Product</h3>
+                    <div class="input">
+                        <input type="text" id="productTitle" placeholder="Product Name" required>
+                    </div>
+                    <div class="input">
+                        <input type="number" id="productPrice" placeholder="Price" required>
+                    </div>
+                    <div class="input">
+                        <input type="number" id="productRent" placeholder="Rent per day" required>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="productImage" placeholder="Image Path" required>
+                    </div>
+                    <button type="submit">Add Product</button>
+                </form>
+            </div>
+
+            <!-- Product Table -->
+            <div class="product-list">
+
+                <h3>All Products</h3>
+
+                <table class="cartTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Product</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Rent</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="productTable"></tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="feedbacks">
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h3>F HEENA Boutique</h3>
+                <p>Timeless fashion for modern women.</p>
+            </div>
+
+            <!-- <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:hello@fheenaboutique.com">hello@fheenaboutique.com</a></p>
+            </div>
+     -->
+            <!-- <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Pinterest</a>
+                </div>
+            </div> -->
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 F HEENA Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
