@@ -82,7 +82,7 @@ All persistence is handled client-side via the browser's `localStorage` API — 
 ![User Registration Page](screenshots/userRegsPage.PNG)
 
 ### 🔐 Admin Login
-![Admin Login Page](screenshots/adminLogin.PNG)
+![Admin Login Page](FHEENA/screenshots/adminLogin.PNG)
 
 ### 🖥️ Admin Home
 ![Admin Home Page](screenshots/adminHome.PNG)
