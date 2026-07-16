@@ -109,8 +109,6 @@ No frameworks (React/Vue/Angular), no CSS preprocessors, and no `package.json` w
 
 ## Project Structure
 
-Based on the uploaded files, here is the inferred project structure (paths referenced by the HTML/CSS files, such as `css/style.css`, `JS/main.js`, and `images/...`, are shown even though only the source files themselves were uploaded):
-
 ```
 f-heena-boutique/
 ├── index.html            # Home page (hero, best products, why-us, contact form)
